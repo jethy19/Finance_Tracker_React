@@ -1,0 +1,10 @@
+#alertdiv {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    padding: 4px 12px;
+}
+
+.danger {
+    background-color: #ffdddd;
+    border-left: 6px solid #f44336;
+  }

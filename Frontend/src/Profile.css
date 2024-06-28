@@ -1,0 +1,161 @@
+.navbar{
+    display: flex; 
+    background-color: #f52245; 
+    font-size: 20px; 
+    height: 50px;
+}
+
+.rightside{
+    display:flex;
+    justify-content:flex-end;
+    width:100%;
+}
+
+.dropdown{
+    margin-top:5px;
+    margin-right:10px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right:20px;
+    background-color: #f9f9f9;
+    min-width: 60px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 10px 10px;
+    z-index: 1;
+  }
+  
+#icon{
+    cursor: -webkit-grabbing; cursor: grabbing;
+}
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+#p{
+    text-decoration:none;
+    color:black;
+    border:none;
+    font-size:20px;
+    cursor:pointer;
+    background-color: white;
+}
+
+#l{
+    text-decoration:none;
+    color:black;
+    font-size:20px;
+    margin-top:20px;
+}
+
+.dropdown-content div{
+    border-style:inset;
+    padding:5px;
+    margin-top:10px;
+    text-align:center;
+
+}
+#barbtn{
+    color:white;
+    background-color:#f52245;
+    border:none;
+    cursor:pointer;
+}
+
+#houseicon{
+    display : flex;
+    flex-direction:row;
+    margin:8px;
+}
+
+#appname{
+    font-size:35px;
+    margin-left:50px;
+    color:#27db0f;    
+    text-shadow:2px 2px 5px #177a0a;
+    cursor:pointer;
+}
+
+.nav { 
+     
+    width: 250px;       
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-between; 
+    overflow: hidden; 
+    padding: 30px 0 20px 10px; 
+  } 
+
+  .navcontainer { 
+    height: calc(100vh - 70px); 
+    width: 210px;      
+    overflow-y: scroll; 
+    overflow-x: hidden; 
+    background-color:#f52245;
+    z-index: 2;  
+    transition: all 0.5s ease-in-out; 
+  } 
+  .navcontainer::-webkit-scrollbar { 
+    display: none; 
+  } 
+  .navclose { 
+    width: 50px; 
+    height: calc(100vh - 70px); 
+    width: 50px; 
+    z-index: 2;    
+    overflow-x: hidden;
+    background-color:#f52245;  
+    transition: all 0.5s ease-in-out;
+  } 
+  .nav-option { 
+    width: 250px; 
+    height: 60px; 
+    display: flex; 
+    align-items: center; 
+    padding: 0 30px 0 20px; 
+    gap: 20px; 
+    color : #faf20f;
+    transition: all 0.1s ease-in-out; 
+  }
+  .nav-option:hover { 
+    border-left: 5px solid #a2a2a2; 
+    background-color: blue; 
+    cursor: pointer; 
+    color : white;
+  } 
+
+  .nav-upper-options { 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    gap: 30px; 
+  } 
+
+  .main-container { 
+    display: flex; 
+    width: 100%;  
+    z-index: 1; 
+  } 
+
+  .option1c{
+    background-color: blue;
+    color : white;
+  }
+
+  .option2c{
+    background-color: blue;
+    color : white;
+  }
+
+  .option3c{
+    background-color: blue;
+    color : white;
+  }
+    
+.main{
+  display:flex;
+  width:100%;
+  padding:5px;
+}
